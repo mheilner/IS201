@@ -1,0 +1,63 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #bdd09f;
+    color: #404f25;
+    
+  }
+ol{
+  font-weight: normal;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+  color: darkblue;
+  text-decoration:none;
+  
+}
+a:hover{
+  color:cornflowerblue;
+  font-weight: bolder;
+}
+a:visited{
+  color:darkblue;
+}
+.common {
+    /* background-color: rgba(192, 114, 255, 0.853); */
+    /* border: 2px solid rgb(62, 10, 10); */
+    position: absolute;
+}
+.header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.leftmenu{
+
+    left: 5px;
+    width: 145px;
+    top: 10px;
+    bottom: 35px;
+    z-index: 1;
+    /* padding-top: 40px ; */
+    border-right: solid 2px gray;
+    /* padding-bottom: 40px; */
+}
+.mainbody{
+  top: 10px;
+  left: 160px;
+  bottom: 40px;
+  padding-right: 5px ;
+}
+.footer{
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  height: 25px;
+  position: fixed;
+  background-color: #4e6172;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 6px;
+}
